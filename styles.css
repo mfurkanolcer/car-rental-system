@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body, .container, .navbar-custom{
+  font-family: 'Poppins', Verdana, sans-serif;
+  
+}
+
+a:link {
+  color:#ffffff;
+}
+
+a:hover {
+  color: #48BF91;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.navbar-custom {
+	background-color: #337AB7;
+  color:#ffffff;
+  border-radius:0;
+  min-height:auto;
+  font-size: 16px;
+    
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  color:#fff;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #00BF91;
+}
+      
+.navbar-custom .navbar-brand {
+  padding:20px;
+}
+
+.navbar-custom .navbar-toggle, .navbar-custom .nav .open>a, .navbar-custom .nav .open>a:hover, .navbar-custom .nav .open>a:focus {
+  background-color: #00BF91;
+}
+
+.navbar-custom .icon-bar {
+  border: 1px solid #000;                
+}
+
+
+.navbar-custom .navbar-nav .open .dropdown-menu>li>a,.navbar-custom .navbar-nav .open .dropdown-menu {
+  color:#428bca;
+  font-size: 15px;
+}
+
+
+footer {
+  background-color: #337AB7;
+  color:#00BF91;
+  padding: 25px;
+}
+  
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+  min-height:200px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
