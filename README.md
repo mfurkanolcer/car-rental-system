@@ -13,20 +13,26 @@ Araç kiralama sisteminde admin ve kullanıcı şeklinde iki tür üyelik bulunm
 Admin ise sisteme kayıtlı tüm rezervasyonları ve tüm kullanıcı bilgilerini görüntüleme bunun yanında kullanıcı silme işlemlerini de yapabilmektedir.
 Kullanıcılar öncelikle sisteme üye olup ardından listedeki araçlardan rezervasyon yapabilmektedirler. 
 
-#### Ana Sayfa
+### Ana Sayfa
 
 ![website](https://user-images.githubusercontent.com/58481075/174475190-1ff7c840-42db-4d05-b492-5e961aca0f19.jpg)
 
 
-#### Üye Girişi
-![giris](https://user-images.githubusercontent.com/58481075/174475403-15d6c236-7aca-4803-b538-2400440b5aa4.jpg)
+
+### Araçlar
+
+![arac](https://user-images.githubusercontent.com/58481075/174477777-e147b646-426c-4cad-8702-d290b2cc57c2.jpg)
 
 
-#### Kullanıcı Rezervasyonları
+
+### Kullanıcı Rezervasyonları
+
 ![rezervasyonlarim](https://user-images.githubusercontent.com/58481075/174475658-45761fb5-4596-455e-ade8-0c4b352bc046.jpg)
 
 
-#### Admin Paneli Üyeler
+
+### Admin Paneli Üyeler
+
 ![uyeler](https://user-images.githubusercontent.com/58481075/174475814-cb383795-87bf-4bbf-b42e-865207d4b8ea.jpg)
 
 
@@ -44,17 +50,13 @@ Uygulamayı test etmek için öncelikle xampp üzerinde apache ve MySQL sunucula
   
 2- Tarayıcınızda phpMyAdmin'i açın. Bunun için tarayıcınızın adres çubuğuna http://localhost/phpmyadmin/ yazmanız gerekmektedir.
   
-3- rent_car adında yeni bir veritabanı oluşturun.  
+3- Üst menülerden içe aktara girip dosya seçe tıklayarak github projesinde ana dizindeki "rent_car.sql" dosyasını seçip git e tıklayınca veritabanı ve tablolar oluşturulur.
 
-![phpmyadmin](https://user-images.githubusercontent.com/58481075/174475909-a77f4c8e-387e-4739-b022-31c271af5058.jpg)
-    
-4- Github ta bulunan rent_car.sql içindeki kodları kopyalayıp çalıştırın. Bu işlem ile veritabanınız hazır olacaktır.
-    
-![sql](https://user-images.githubusercontent.com/58481075/174475987-2da8ec5d-6d1b-468e-bc3a-a8d48257735d.jpg)
+![phpmyadmin](https://user-images.githubusercontent.com/58481075/174477559-8b00d046-fbde-4826-b22a-af66bce1f9da.jpg)
   
-5- XAMPP programının bulunduğu dizine gidin ve bu dizinde htdocs klasörünü bulun.
+4- XAMPP programının bulunduğu dizine gidin ve bu dizinde htdocs klasörünü bulun.
   
-6- Github üzerindeki .php dosyalarını ve img isimli klasörü  htdocs dizinine taşıyın.
+5- Github üzerindeki php, css dosyalarını ve img isimli klasörü  htdocs dizinine taşıyın.
     
-7- Araç Kiralama sisteminin ana sayfayasına ulaşmak için http://localhost/index.php adresi kullanabilirsiniz.
+6- Araç Kiralama sisteminin ana sayfayasına ulaşmak için http://localhost/index.php adresi kullanabilirsiniz.
 
