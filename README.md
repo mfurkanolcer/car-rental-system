@@ -3,7 +3,7 @@
 Araç kiralama sistemi projesinde kullanıcıların internet üzerinden istedikleri araçları rezervasyon yapmaları hedeflenmiştir. Bu projede HTML, CSS, Bootstrap, PHP ve MySQL teknolojileri kullanılmıştır.
 
 
-#### Demo Link: http://rentacar.rf.gd/
+#### Demo Link: http://rentacar.eu5.org
 
 
 ## Site İçeriği:
